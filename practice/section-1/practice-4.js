@@ -7,6 +7,5 @@ function collectSameElements(collectionA, objectB) {
       return f=== e.key;
     }) !== -1 && result.push(e.key);
   });
-
   return result;
 }
